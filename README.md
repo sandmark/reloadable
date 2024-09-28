@@ -7,7 +7,7 @@ A simple template for REPL driven (reloadable) project.
 This is a template project for use with [deps-new](https://github.com/seancorfield/deps-new).
 As originally generated, it will produce a new library project when run:
 
-    $ clojure -Sdeps '{:deps {sandmark/reloadable {:git/url "https://github.com/sandmark/reloadable" :git/sha "8d708f74409201c03a0e0cd34c3a1bdf98e796ad"}}}' -Tnew create :template sandmark/reloadable :name myusername/mycoollib
+    $ clojure -Sdeps '{:deps {sandmark/reloadable {:git/url "https://github.com/sandmark/reloadable" :git/sha "1b1c5c6f9b5bbcf8b4c912fe8b456fe206fd8704"}}}' -Tnew create :template sandmark/reloadable :name myusername/mycoollib
 
 Assuming you have installed `deps-new` as your `new` "tool" via:
 
