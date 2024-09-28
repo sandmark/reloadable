@@ -10,7 +10,7 @@
 (clojure.tools.namespace.repl/set-refresh-dirs "dev/src" "src" "test/src" "spec/src")
 
 (defn suspend []
-  (st/instrument))
+  (st/unstrument))
 
 (defn resume []
-  (st/unstrument))
+  (st/instrument))
