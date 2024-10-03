@@ -10,12 +10,12 @@
    {"build.tmpl" "build.clj"
     "deps.tmpl"  "deps.edn"}
    :only]
-  ["src" "src/{{top/file}}"
-   {"main.tmpl" "{{main/file}}.clj"}]
-  ["test" "test/{{top/file}}"
-   {"main_test.tmpl" "{{main/file}}_test.clj"}]
-  ["spec" "spec/{{top/file}}"
-   {"main_spec.tmpl" "{{main/file}}_spec.clj"}]
+  ["src" "src/{{main/file}}"
+   {"main.tmpl" "core.clj"}]
+  ["test" "test/{{main/file}}"
+   {"main_test.tmpl" "core_test.clj"}]
+  ["spec" "spec/{{main/file}}"
+   {"main_spec.tmpl" "core_spec.clj"}]
   ["dev" "dev/src/"
    {"user.tmpl" "user.clj"
     "dev.tmpl"  "dev.clj"}]]}

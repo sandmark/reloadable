@@ -1,9 +1,9 @@
-(ns {{top/ns}}.{{main/ns}}-test
-(:require [clojure.test :refer [deftest testing is]]
-[matcher-combinators.clj-test]
-[matcher-combinators.matchers :as m]
-[mockfn.macros :refer [providing]]
-  [{{top/ns}}.{{main/ns}} :as sut]))
+(ns {{main/ns}}.core-test
+  (:require [clojure.test :refer [deftest testing is]]
+            [matcher-combinators.clj-test]
+            [matcher-combinators.matchers :as m]
+            [mockfn.macros :refer [providing]]
+            [{{main/ns}}.core :as sut]))
 
 (deftest a-test
   (testing "FIXME, I fail."

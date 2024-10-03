@@ -1,8 +1,8 @@
 {:paths ["src" "resources"]
  :deps  {org.clojure/clojure {:mvn/version "1.12.0"}}
  :aliases
- {:run-m {:main-opts ["-m" "{{top/file}}.{{main/file}}"]}
-  :run-x {:ns-default {{top/file}}.{{main/file}}
+ {:run-m {:main-opts ["-m" "{{main/file}}.core"]}
+  :run-x {:ns-default {{main/file}}.core
           :exec-fn    greet
           :exec-args  {:name "Clojure"}}
   :dev   {:extra-paths ["dev/src" "dev/resources" "test" "spec"]

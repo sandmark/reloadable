@@ -3,7 +3,7 @@
   (:require [clojure.tools.build.api :as b]
             [deps-deploy.deps-deploy :as dd]))
 
-(def lib '{{group/id}}/{{artifact/id}})
+(def lib 'io.github.{{top/ns}}/{{artifact/id}})
 (def version "{{version}}")
 #_ ; alternatively, use MAJOR.MINOR.COMMITS:
 (def version (format "1.0.%s" (b/git-count-revs nil)))
